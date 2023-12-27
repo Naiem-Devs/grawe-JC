@@ -1,0 +1,306 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .service-img {
+        transform: translateX(98px);
+    }
+    .svc-img {
+        max-width: 491px;
+    }
+    
+    .service_content {
+        margin-right: -65px;
+        margin-left: 110px;
+    }
+    
+    .service_content ul li h6 {
+        font-size: 14px;
+    }
+    img.truck{
+    max-width: 390px;
+}
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .service-img {
+        transform: translateX(98px);
+    }
+    .svc-img {
+        max-width: 491px;
+    }
+    
+    .service_content {
+        margin-right: -65px;
+        margin-left: 110px;
+    }
+    
+    .service_content ul li h6 {
+        font-size: 14px;
+    }
+    img.truck{
+    max-width: 338px;
+}
+.hero_content h1{
+    font-size: 50px;
+    max-width: 520px;
+}
+section.Transport-area .container {
+    max-width: 877px;
+    transform: translateX(44px);
+
+}
+.apart_text p{
+    max-width: 150px;
+}
+.apart_text span{
+    max-width: 40px;
+    height: 40px;
+}
+.fleet_blk{
+    margin-bottom: 30px;
+}
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .service-img {
+    display: none;
+    }
+    .svc-img {
+        max-width: 491px;
+    }
+    
+    .service_content {
+        margin-right: -65px;
+        margin-left: 110px;
+        padding: 40px 0;
+    }
+
+.service_content ul {
+    width: 80%;
+}
+    
+    .service_content ul li h6 {
+        font-size: 14px;
+    }
+    img.truck{
+    max-width: 338px;
+}
+.hero_content h1{
+    font-size: 50px;
+    max-width: 520px;
+}
+section.Transport-area .container {
+    max-width: 656px;
+    transform: translateX(44px);
+}
+.apart_text p{
+    max-width: 150px;
+}
+.apart_text span{
+    max-width: 40px;
+    height: 40px;
+}
+.fleet_blk{
+    margin-bottom: 30px;
+}
+.logo-area {
+    max-width: 210px;
+    padding: 15.5px 46.254px 15.5px 18.336px;
+}
+.bar a{
+    margin-right: 20px;
+}
+.Transport-title h1 {
+    font-size: 28px;
+}
+
+.Transport-title hr {
+    margin: 0 20px;
+}
+.about-content {
+    text-align: center;
+    margin-top: 36px;
+    max-width: 600px;
+    margin-inline: auto;
+}
+
+.about-content a {
+    margin: auto;
+}
+
+.apart_blk {
+    margin-bottom: 30px;
+}
+
+.apart-area {
+    padding: 70px 0;
+}
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .service-img {
+        display: none;
+        }
+        .svc-img {
+            max-width: 491px;
+        }
+        
+        .service_content {
+            margin-right: -65px;
+            margin-left: 10px;
+            padding: 40px 0;
+        }
+    
+    .service_content ul {
+        width: 70%;
+        flex-direction: column;
+        gap: 16px 22px;
+        margin-top: 25px;
+    }
+        
+        .service_content ul li h6 {
+            font-size: 14px;
+        }
+        img.truck{
+        max-width: 108px;
+        bottom: -7px;
+    }
+    .hero_content h1{
+        font-size: 28px;
+        max-width: 302px;
+        line-height: 1.2;
+    }
+
+.hero_content h1 img {
+    height: 140px;
+    top: 50%;
+}
+    section.Transport-area .container {
+        max-width: 100%;
+        transform: unset;
+    }
+    .apart_text p{
+        max-width: 150px;
+    }
+    .apart_text span{
+        max-width: 40px;
+        height: 40px;
+    }
+    .fleet_blk{
+        margin-bottom: 30px;
+        max-width: 260px;
+        margin-inline: auto;
+    }
+    .logo-area {
+        max-width: 210px;
+        padding: 15.5px 46.254px 15.5px 18.336px;
+    }
+    .bar a{
+        margin-right: 20px;
+    }
+    .Transport-title h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .Transport-title hr {
+        margin: 20px 0px;
+        width: 100%;
+        height: 2px;
+    }
+    .about-content {
+        text-align: center;
+        margin-top: 36px;
+        max-width: 600px;
+        margin-inline: auto;
+    }
+    
+    .about-content a {
+        margin: auto;
+    }
+    
+    .apart_blk {
+        margin-bottom: 30px;
+        max-width: 300px;
+        margin-inline: auto;
+    }
+    
+    .apart-area {
+        padding: 70px 0 50px;
+    }
+    .Transport-title {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .Transport_blk {
+        margin: auto;
+        margin-bottom: 40px;
+        max-width: 320px;
+    }
+    
+    .Transport_blk i span {
+        left: 54px;
+        width: 115px;
+        height: 75px;
+    }
+    
+    .t-btm {
+        margin-bottom: 60px;
+        margin-top: 10px;
+    }
+    
+    .ab-9k {
+        max-width: 100px;
+    }
+    
+    .about-content h3 {
+        font-size: 20px;
+    }
+    
+    img.svc-left {
+        max-width: 65px;
+        display: none;
+    }
+    
+    .service_content p {
+        max-width: 340px;
+    }
+    
+    .service_content h3 {
+        font-size: 28px;
+    }
+    
+    .apart-area h3 {
+        font-size: 22px;
+    }
+    .hero-area{
+    height: auto;
+    min-height: 500px;
+}
+.hero_content{
+    margin-top: 180px;
+}
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
